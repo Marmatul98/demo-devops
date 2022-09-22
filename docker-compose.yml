@@ -1,0 +1,7 @@
+services:
+  backend:
+    build: .
+    ports:
+      - ${PORT_NUMBER}:8080
+volumes:
+    backend: {}
